@@ -30,3 +30,6 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 
 -- Transparency
 keymap.set("n", "<leader>tr", ":TransparentToggle<CR>", { desc = "Toggle Transparency" })
+
+-- ctrl + backspace deletes word
+keymap.set("i", "<C-BS>", "<C-w>", { noremap = true })
